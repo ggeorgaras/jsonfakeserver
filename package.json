@@ -1,10 +1,10 @@
 {
-  "name": "fake-json-server",
+  "name": "jsonfakeserver",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
