@@ -4,7 +4,7 @@ const jsonServer = require("json-server");
 const server = jsonServer.create();
 const path = require("path");
 const router = jsonServer.router(path.join(__dirname, "db.json"));
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 console.log(path.join(__dirname, "db.json"))
 
 // Can pass a limited number of options to this to override (some) defaults. See https://github.com/typicode/json-server#api
